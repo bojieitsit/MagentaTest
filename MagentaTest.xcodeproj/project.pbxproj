@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		580107992B3C9E2C0074ABFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580107982B3C9E2C0074ABFD /* AppDelegate.swift */; };
+		5801079B2B3C9E2C0074ABFD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5801079A2B3C9E2C0074ABFD /* SceneDelegate.swift */; };
+		5801079D2B3C9E2C0074ABFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5801079C2B3C9E2C0074ABFD /* ViewController.swift */; };
+		580107A02B3C9E2C0074ABFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5801079E2B3C9E2C0074ABFD /* Main.storyboard */; };
+		580107A32B3C9E2C0074ABFD /* MagentaTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 580107A12B3C9E2C0074ABFD /* MagentaTest.xcdatamodeld */; };
+		580107A52B3C9E2E0074ABFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 580107A42B3C9E2E0074ABFD /* Assets.xcassets */; };
+		580107A82B3C9E2E0074ABFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 580107A62B3C9E2E0074ABFD /* LaunchScreen.storyboard */; };
+		580107B32B3C9E2E0074ABFD /* MagentaTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580107B22B3C9E2E0074ABFD /* MagentaTestTests.swift */; };
+		580107BD2B3C9E2E0074ABFD /* MagentaTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580107BC2B3C9E2E0074ABFD /* MagentaTestUITests.swift */; };
+		580107BF2B3C9E2E0074ABFD /* MagentaTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580107BE2B3C9E2E0074ABFD /* MagentaTestUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		580107AF2B3C9E2E0074ABFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5801078D2B3C9E2C0074ABFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 580107942B3C9E2C0074ABFD;
+			remoteInfo = MagentaTest;
+		};
+		580107B92B3C9E2E0074ABFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5801078D2B3C9E2C0074ABFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 580107942B3C9E2C0074ABFD;
+			remoteInfo = MagentaTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		580107952B3C9E2C0074ABFD /* MagentaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagentaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		580107982B3C9E2C0074ABFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5801079A2B3C9E2C0074ABFD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5801079C2B3C9E2C0074ABFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5801079F2B3C9E2C0074ABFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		580107A22B3C9E2C0074ABFD /* MagentaTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MagentaTest.xcdatamodel; sourceTree = "<group>"; };
+		580107A42B3C9E2E0074ABFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		580107A72B3C9E2E0074ABFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		580107A92B3C9E2E0074ABFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		580107AE2B3C9E2E0074ABFD /* MagentaTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagentaTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		580107B22B3C9E2E0074ABFD /* MagentaTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagentaTestTests.swift; sourceTree = "<group>"; };
+		580107B82B3C9E2E0074ABFD /* MagentaTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagentaTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		580107BC2B3C9E2E0074ABFD /* MagentaTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagentaTestUITests.swift; sourceTree = "<group>"; };
+		580107BE2B3C9E2E0074ABFD /* MagentaTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagentaTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		580107922B3C9E2C0074ABFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		580107AB2B3C9E2E0074ABFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		580107B52B3C9E2E0074ABFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5801078C2B3C9E2C0074ABFD = {
+			isa = PBXGroup;
+			children = (
+				580107972B3C9E2C0074ABFD /* MagentaTest */,
+				580107B12B3C9E2E0074ABFD /* MagentaTestTests */,
+				580107BB2B3C9E2E0074ABFD /* MagentaTestUITests */,
+				580107962B3C9E2C0074ABFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		580107962B3C9E2C0074ABFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				580107952B3C9E2C0074ABFD /* MagentaTest.app */,
+				580107AE2B3C9E2E0074ABFD /* MagentaTestTests.xctest */,
+				580107B82B3C9E2E0074ABFD /* MagentaTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		580107972B3C9E2C0074ABFD /* MagentaTest */ = {
+			isa = PBXGroup;
+			children = (
+				580107982B3C9E2C0074ABFD /* AppDelegate.swift */,
+				5801079A2B3C9E2C0074ABFD /* SceneDelegate.swift */,
+				5801079C2B3C9E2C0074ABFD /* ViewController.swift */,
+				5801079E2B3C9E2C0074ABFD /* Main.storyboard */,
+				580107A42B3C9E2E0074ABFD /* Assets.xcassets */,
+				580107A62B3C9E2E0074ABFD /* LaunchScreen.storyboard */,
+				580107A92B3C9E2E0074ABFD /* Info.plist */,
+				580107A12B3C9E2C0074ABFD /* MagentaTest.xcdatamodeld */,
+			);
+			path = MagentaTest;
+			sourceTree = "<group>";
+		};
+		580107B12B3C9E2E0074ABFD /* MagentaTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				580107B22B3C9E2E0074ABFD /* MagentaTestTests.swift */,
+			);
+			path = MagentaTestTests;
+			sourceTree = "<group>";
+		};
+		580107BB2B3C9E2E0074ABFD /* MagentaTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				580107BC2B3C9E2E0074ABFD /* MagentaTestUITests.swift */,
+				580107BE2B3C9E2E0074ABFD /* MagentaTestUITestsLaunchTests.swift */,
+			);
+			path = MagentaTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		580107942B3C9E2C0074ABFD /* MagentaTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 580107C22B3C9E2E0074ABFD /* Build configuration list for PBXNativeTarget "MagentaTest" */;
+			buildPhases = (
+				580107912B3C9E2C0074ABFD /* Sources */,
+				580107922B3C9E2C0074ABFD /* Frameworks */,
+				580107932B3C9E2C0074ABFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagentaTest;
+			productName = MagentaTest;
+			productReference = 580107952B3C9E2C0074ABFD /* MagentaTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		580107AD2B3C9E2E0074ABFD /* MagentaTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 580107C52B3C9E2E0074ABFD /* Build configuration list for PBXNativeTarget "MagentaTestTests" */;
+			buildPhases = (
+				580107AA2B3C9E2E0074ABFD /* Sources */,
+				580107AB2B3C9E2E0074ABFD /* Frameworks */,
+				580107AC2B3C9E2E0074ABFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				580107B02B3C9E2E0074ABFD /* PBXTargetDependency */,
+			);
+			name = MagentaTestTests;
+			productName = MagentaTestTests;
+			productReference = 580107AE2B3C9E2E0074ABFD /* MagentaTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		580107B72B3C9E2E0074ABFD /* MagentaTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 580107C82B3C9E2E0074ABFD /* Build configuration list for PBXNativeTarget "MagentaTestUITests" */;
+			buildPhases = (
+				580107B42B3C9E2E0074ABFD /* Sources */,
+				580107B52B3C9E2E0074ABFD /* Frameworks */,
+				580107B62B3C9E2E0074ABFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				580107BA2B3C9E2E0074ABFD /* PBXTargetDependency */,
+			);
+			name = MagentaTestUITests;
+			productName = MagentaTestUITests;
+			productReference = 580107B82B3C9E2E0074ABFD /* MagentaTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5801078D2B3C9E2C0074ABFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					580107942B3C9E2C0074ABFD = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					580107AD2B3C9E2E0074ABFD = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 580107942B3C9E2C0074ABFD;
+					};
+					580107B72B3C9E2E0074ABFD = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 580107942B3C9E2C0074ABFD;
+					};
+				};
+			};
+			buildConfigurationList = 580107902B3C9E2C0074ABFD /* Build configuration list for PBXProject "MagentaTest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5801078C2B3C9E2C0074ABFD;
+			productRefGroup = 580107962B3C9E2C0074ABFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				580107942B3C9E2C0074ABFD /* MagentaTest */,
+				580107AD2B3C9E2E0074ABFD /* MagentaTestTests */,
+				580107B72B3C9E2E0074ABFD /* MagentaTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		580107932B3C9E2C0074ABFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				580107A82B3C9E2E0074ABFD /* LaunchScreen.storyboard in Resources */,
+				580107A52B3C9E2E0074ABFD /* Assets.xcassets in Resources */,
+				580107A02B3C9E2C0074ABFD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		580107AC2B3C9E2E0074ABFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		580107B62B3C9E2E0074ABFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		580107912B3C9E2C0074ABFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5801079D2B3C9E2C0074ABFD /* ViewController.swift in Sources */,
+				580107A32B3C9E2C0074ABFD /* MagentaTest.xcdatamodeld in Sources */,
+				580107992B3C9E2C0074ABFD /* AppDelegate.swift in Sources */,
+				5801079B2B3C9E2C0074ABFD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		580107AA2B3C9E2E0074ABFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				580107B32B3C9E2E0074ABFD /* MagentaTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		580107B42B3C9E2E0074ABFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				580107BF2B3C9E2E0074ABFD /* MagentaTestUITestsLaunchTests.swift in Sources */,
+				580107BD2B3C9E2E0074ABFD /* MagentaTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		580107B02B3C9E2E0074ABFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 580107942B3C9E2C0074ABFD /* MagentaTest */;
+			targetProxy = 580107AF2B3C9E2E0074ABFD /* PBXContainerItemProxy */;
+		};
+		580107BA2B3C9E2E0074ABFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 580107942B3C9E2C0074ABFD /* MagentaTest */;
+			targetProxy = 580107B92B3C9E2E0074ABFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5801079E2B3C9E2C0074ABFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5801079F2B3C9E2C0074ABFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		580107A62B3C9E2E0074ABFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				580107A72B3C9E2E0074ABFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		580107C02B3C9E2E0074ABFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		580107C12B3C9E2E0074ABFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		580107C32B3C9E2E0074ABFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DQ6AN9K3FQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MagentaTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bojieitsit.MagentaTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		580107C42B3C9E2E0074ABFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DQ6AN9K3FQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MagentaTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bojieitsit.MagentaTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		580107C62B3C9E2E0074ABFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DQ6AN9K3FQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bojieitsit.MagentaTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagentaTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MagentaTest";
+			};
+			name = Debug;
+		};
+		580107C72B3C9E2E0074ABFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DQ6AN9K3FQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bojieitsit.MagentaTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagentaTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MagentaTest";
+			};
+			name = Release;
+		};
+		580107C92B3C9E2E0074ABFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DQ6AN9K3FQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bojieitsit.MagentaTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MagentaTest;
+			};
+			name = Debug;
+		};
+		580107CA2B3C9E2E0074ABFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DQ6AN9K3FQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bojieitsit.MagentaTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MagentaTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		580107902B3C9E2C0074ABFD /* Build configuration list for PBXProject "MagentaTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				580107C02B3C9E2E0074ABFD /* Debug */,
+				580107C12B3C9E2E0074ABFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		580107C22B3C9E2E0074ABFD /* Build configuration list for PBXNativeTarget "MagentaTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				580107C32B3C9E2E0074ABFD /* Debug */,
+				580107C42B3C9E2E0074ABFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		580107C52B3C9E2E0074ABFD /* Build configuration list for PBXNativeTarget "MagentaTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				580107C62B3C9E2E0074ABFD /* Debug */,
+				580107C72B3C9E2E0074ABFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		580107C82B3C9E2E0074ABFD /* Build configuration list for PBXNativeTarget "MagentaTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				580107C92B3C9E2E0074ABFD /* Debug */,
+				580107CA2B3C9E2E0074ABFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		580107A12B3C9E2C0074ABFD /* MagentaTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				580107A22B3C9E2C0074ABFD /* MagentaTest.xcdatamodel */,
+			);
+			currentVersion = 580107A22B3C9E2C0074ABFD /* MagentaTest.xcdatamodel */;
+			path = MagentaTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5801078D2B3C9E2C0074ABFD /* Project object */;
+}
